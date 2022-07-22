@@ -3,6 +3,10 @@ import "./Home.css";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Features from "../Features/Features";
+import SingleImage from "../SingleImage/SingleImage";
+import About from "../About/About";
+import Counter from "../Counter/Counter";
+import Faq from "../Faq/Faq";
 
 const Home = () => {
   return (
@@ -19,7 +23,11 @@ const Home = () => {
           Download
         </button>
       </div>
+      <SingleImage />
       <Features />
+      <About />
+      <Counter />
+      <Faq />
       <Footer />
     </>
   );

@@ -1,0 +1,29 @@
+.faqMain {
+  background-color: #0052cc;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.faqDiv {
+  /* margin-top: 400px; */
+}
+.Faqtext {
+  color: #ffffff;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.faq {
+  color: #ffffff;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 150%;
+  align-items: center;
+  text-align: center;
+}

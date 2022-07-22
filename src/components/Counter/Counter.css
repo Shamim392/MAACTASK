@@ -1,0 +1,41 @@
+.counterDiv {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.counter {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 150%;
+  text-align: center;
+  color: #0052cc;
+  margin-top: -10px;
+}
+.counterText {
+  color: #4e4e4e;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.counterIcon {
+  color: #0052cc;
+  width: 48px;
+  height: 48px;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  margin-left: 85px;
+}
+
+.counterCol {
+  margin-right: 80px;
+}

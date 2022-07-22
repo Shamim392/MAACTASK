@@ -1,0 +1,95 @@
+.aboutMain {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutIamge {
+  /* position: absolute; */
+  width: 380px;
+  height: 406px;
+  left: 134px;
+  top: 2924px;
+  background: #f1f6ff;
+  border-radius: 32px;
+  margin: 60px 0px 90px 190px;
+}
+.orderImg {
+  position: relative;
+  width: 237.51px;
+  height: 280px;
+  bottom: 55px;
+
+  filter: drop-shadow(0px 16px 32px rgba(24, 100, 214, 0.12));
+}
+.sellingImg {
+  position: relative;
+  width: 234.12px;
+  height: 276px;
+  right: 126px;
+  bottom: 80px;
+  filter: drop-shadow(0px 16px 32px rgba(24, 100, 214, 0.12));
+}
+.control {
+  position: relative;
+  width: 217px;
+  height: 161px;
+  left: 123px;
+  bottom: 350px;
+}
+
+.aboutContent {
+  padding-top: 20px;
+}
+.about {
+  color: #0052cc;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  margin-right: 360px;
+}
+.heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 110%;
+  color: #0b141f;
+}
+.abouts {
+  width: 586px;
+  height: 128px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #4e4e4e;
+  text-align: start;
+  /* margin-left: 150px; */
+  padding-left: 90px;
+}
+
+.icon {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  right: 160px;
+  top: 45px;
+}
+
+.quate {
+  color: #4e4e4e;
+  text-align: start;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 160%;
+  margin-left: 220px;
+  margin-top: -40px;
+}
+.ceoText {
+  margin-left: 220px;
+}

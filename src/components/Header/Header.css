@@ -1,0 +1,31 @@
+.cont {
+  background-color: rgb(236, 228, 228);
+}
+a {
+  color: #0b2e4e;
+  font-weight: 1000;
+  margin-top: 6px;
+}
+.buttons {
+  margin: 10px;
+}
+.btn1 {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 84px;
+  height: 45px;
+  margin-right: 25px;
+}
+.btn2 {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  width: 132px;
+  height: 47px;
+  border: 2px solid #0052cc;
+}
+/* @media only screen and (max-width: 481px){
+
+} */

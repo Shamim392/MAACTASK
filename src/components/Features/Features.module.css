@@ -1,0 +1,80 @@
+.text {
+  color: #0052cc;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  align-items: center;
+}
+.heading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 130%;
+  align-items: center;
+  text-align: center;
+
+  color: #0b141f;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 {
+  float: left;
+  padding: 10px;
+  background-color: rgb(215, 221, 221);
+  /* width: 280px; */
+  width: 27%;
+  height: 714px;
+}
+.column2 {
+  background-color: rgb(169, 169, 183);
+  /* width: 548px; */
+  width: 45%;
+  height: 783px;
+  left: 446px;
+  top: 1825px;
+}
+.column3 {
+  background-color: rgb(215, 213, 218);
+  /* width: 280px; */
+  width: 27%;
+  height: 714px;
+  left: 1048px;
+  top: 1867px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.iconDiv {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 6px;
+  /* float: right; */
+  text-align: end;
+  width: 72px;
+  height: 72px;
+  left: 320px;
+  top: 1867px;
+}
+.feIcon {
+  color: #0052cc;
+  width: 72px;
+  height: 72px;
+  left: 320px;
+  top: 1867px;
+}
+.iconText {
+  text-align: end;
+  color: #0b141f;
+}
+.iconTexts {
+  text-align: end;
+  color: #4e4e4e;
+}

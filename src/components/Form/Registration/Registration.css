@@ -1,0 +1,152 @@
+.reg-container {
+  background-color: rgb(225, 226, 228);
+  padding: 50px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.input-form {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 10px 40px 40px 40px;
+}
+input {
+  /* width: 508px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.list {
+  justify-content: end;
+}
+
+.input-check {
+  width: 15px;
+  height: 15px;
+}
+.checkbox-div {
+  display: flex;
+  margin-left: 20px;
+}
+.condition {
+  margin-left: 7px;
+  margin-top: 2px;
+}
+label {
+  margin-top: 5px;
+}
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.account a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0052cc;
+  margin-top: 0px;
+  margin-left: 2px;
+}
+.submit {
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 481px) {
+  h1 {
+    text-align: center;
+    font-size: 14px;
+  }
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  input {
+    /* width: 508px; */
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    padding: 8px;
+  }
+  .check {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 10px;
+  }
+  .checkbox {
+    display: flex;
+    margin-left: 20px;
+  }
+  label {
+    margin-left: -10px;
+    font-size: 14px;
+  }
+  .submit {
+    font-size: 14px;
+  }
+  .account {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+  .login {
+    font-size: 180px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0052cc;
+    margin-top: 0px;
+    margin-left: 2px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+  }
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+  }
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 40px 40px 40px;
+  }
+}

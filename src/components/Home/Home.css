@@ -1,0 +1,32 @@
+h1 {
+  color: #0b141f;
+  margin-bottom: 30px;
+}
+.content {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.button {
+  background-color: #0052cc;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 25px;
+}
+.button1 {
+  background-color: white;
+  box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
+  -webkit-box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
+  -moz-box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid #0052cc;
+}

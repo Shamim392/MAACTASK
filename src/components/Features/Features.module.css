@@ -21,47 +21,54 @@
 }
 .row {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
 }
 
 .column1 {
-  float: left;
   padding: 10px;
-  background-color: rgb(215, 221, 221);
-  /* width: 280px; */
+  /* background-color: rgb(215, 221, 221); */
   width: 27%;
   height: 714px;
+  left: 1048px;
+  top: 1867px;
+  margin-top: 30px;
 }
 .column2 {
-  background-color: rgb(169, 169, 183);
-  /* width: 548px; */
+  /* background-color: rgb(169, 169, 183); */
   width: 45%;
   height: 783px;
   left: 446px;
   top: 1825px;
 }
 .column3 {
-  background-color: rgb(215, 213, 218);
-  /* width: 280px; */
+  /* background-color: rgb(215, 213, 218); */
   width: 27%;
   height: 714px;
   left: 1048px;
   top: 1867px;
+  margin-top: 30px;
 }
 .main {
   display: flex;
   flex-direction: column;
+  float: right;
+  margin-top: 17px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 198px;
+  left: 112px;
+  top: 1867px;
 }
 .iconDiv {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   border-radius: 6px;
-  /* float: right; */
-  text-align: end;
   width: 72px;
   height: 72px;
   left: 320px;
   top: 1867px;
+  margin-left: 210px;
 }
 .feIcon {
   color: #0052cc;
@@ -71,10 +78,89 @@
   top: 1867px;
 }
 .iconText {
-  text-align: end;
   color: #0b141f;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 130%;
+  margin-top: 20px;
+  text-align: end;
 }
 .iconTexts {
-  text-align: end;
   color: #4e4e4e;
+  font-family: "Manrope";
+  width: 280px;
+  height: 52px;
+  left: 112px;
+  top: 2013px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: right;
+}
+.main3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 198px;
+  left: 112px;
+  top: 1867px;
+  margin-left: 10px;
+}
+.iconDiv3 {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 6px;
+  width: 72px;
+  height: 72px;
+  left: 1048px;
+  top: 1867px;
+}
+.iconText3 {
+  color: #0b141f;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 130%;
+  margin-top: 20px;
+}
+.iconTexts3 {
+  color: #4e4e4e;
+  font-family: "Manrope";
+  width: 280px;
+  height: 52px;
+  left: 112px;
+  top: 2013px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.shadow {
+  background: rgba(5, 44, 104, 0.2);
+  filter: blur(76px);
+  width: 412px;
+  height: 768px;
+  left: 514px;
+}
+
+.circle {
+  width: 548.74px;
+  height: 548px;
+  margin-top: 150px;
+}
+.phoneImg {
+  box-shadow: rgba(5, 44, 104, 0.2) 0px 22px 70px 4px;
+  position: absolute;
+  border-radius: 20px;
+  top: 85%;
+  left: 36%;
+  width: 372px;
+  height: 744px;
 }

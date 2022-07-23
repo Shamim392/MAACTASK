@@ -5,20 +5,23 @@
 h1 {
   text-align: center;
 }
-p {
+.logintext {
   text-align: center;
+  color: black;
+  font-size: 18px;
 }
 .input-form {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 6px;
   display: flex;
+  font-size: 14px;
   flex-direction: column;
   width: 50%;
   margin: auto;
   padding: 10px 40px 40px 40px;
 }
-input {
+.loginInput {
   /* width: 508px; */
   margin-left: 20px;
   margin-right: 20px;
@@ -29,6 +32,14 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.signup p {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  margin-top: 0px;
+  margin-left: 2px;
 }
 .signup a {
   font-size: 14px;

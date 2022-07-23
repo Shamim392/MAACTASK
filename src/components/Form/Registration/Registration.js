@@ -46,8 +46,11 @@ const Registration = () => {
       <form onSubmit={handleSubmit} className="form-section">
         <div className="input-form">
           <h1>Create Account</h1>
-          <p>Fill in the details below to create an account</p>
+          <p className="regTest">
+            Fill in the details below to create an account
+          </p>
           <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             id="name"
             value={data.name}
@@ -57,6 +60,7 @@ const Registration = () => {
             placeholder="Enter Your Full Name"
           />
           <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             id="email"
             value={data.email}
@@ -65,8 +69,15 @@ const Registration = () => {
             required
             placeholder="Enter Your Full Email"
           />
-          <input type="text" name="employeeId" required placeholder="Your ID" />
           <input
+            className="regInput"
+            type="text"
+            name="employeeId"
+            required
+            placeholder="Your ID"
+          />
+          <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             id="tel"
             value={data.tel}
@@ -76,6 +87,7 @@ const Registration = () => {
             placeholder="Enter Your Mobile Number"
           />
           <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             id="password"
             value={data.password}
@@ -85,6 +97,7 @@ const Registration = () => {
             placeholder="Password"
           />
           <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             id="passwordConfirm"
             value={data.passwordConfirm}
@@ -94,6 +107,7 @@ const Registration = () => {
             placeholder="Confirm Password"
           />
           <input
+            className="regInput"
             onChange={(e) => handleOnChange(e)}
             value={data.browser}
             list="role"

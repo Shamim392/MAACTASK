@@ -1,10 +1,12 @@
 .cont {
-  background-color: rgb(236, 228, 228);
+  background-color: rgb(234, 228, 228);
 }
-a {
+.logo {
   color: #0b2e4e;
-  font-weight: 1000;
   margin-top: 6px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
 }
 .buttons {
   margin: 10px;
@@ -13,6 +15,7 @@ a {
   background-color: #0052cc;
   color: white;
   border: none;
+  font-size: 16px;
   border-radius: 4px;
   width: 84px;
   height: 45px;
@@ -20,12 +23,18 @@ a {
 }
 .btn2 {
   background-color: white;
+  box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
+  -webkit-box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
+  -moz-box-shadow: 5px 4px 0px 0px rgba(0, 82, 204, 0.98);
   border-radius: 4px;
+  font-size: 16px;
+
   color: black;
   width: 132px;
   height: 47px;
   border: 2px solid #0052cc;
 }
-/* @media only screen and (max-width: 481px){
 
-} */
+.buttonDiv {
+  justify-content: end;
+}

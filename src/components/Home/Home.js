@@ -7,6 +7,11 @@ import SingleImage from "../SingleImage/SingleImage";
 import About from "../About/About";
 import Counter from "../Counter/Counter";
 import Faq from "../Faq/Faq";
+import aven from "../../assects/image/Aven.png";
+import amara from "../../assects/image/Amara.png";
+import circle from "../../assects/image/Circle.png";
+import kyan from "../../assects/image/Kyan.png";
+import treva from "../../assects/image/Treva.png";
 
 const Home = () => {
   return (
@@ -28,6 +33,38 @@ const Home = () => {
       <About />
       <Counter />
       <Faq />
+      <div className="">
+        <h1 className="teams">5,000+ high-impact teams rely on Fieldx</h1>
+        <div className="row teamsLogo">
+          <div className="col ">
+            <div className="realColumn">
+              <img src={aven} alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="realColumn">
+              {" "}
+              <img src={amara} alt="" />
+            </div>
+          </div>
+          <div className="col">
+            <div className="realColumn">
+              {" "}
+              <img src={circle} alt="" />
+            </div>
+          </div>
+          <div className="col">
+            {" "}
+            <img src={kyan} alt="" />
+          </div>
+          <div className="col">
+            <div className="realColumn">
+              {" "}
+              <img src={treva} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );

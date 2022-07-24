@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div>
           <a className=" logo" href="#">
-            FeildX
+            FieldX
           </a>
           <button
             className="navbar-toggler"
